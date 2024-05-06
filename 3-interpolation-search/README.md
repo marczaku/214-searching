@@ -9,3 +9,5 @@ What are the requirements for this to work?
 How do you think its Best Case, Average Case and Worst Case Scenarios perform compared to Binary Search?
 
 We don't have time to cover this topic in class, but I hope this serves as inspiration to the endless possibilities of algorithms :)
+
+## No Exercise

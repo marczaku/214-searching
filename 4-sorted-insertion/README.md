@@ -32,10 +32,17 @@ e.g.:
 
 ### Complexity
 - Search: Binary Search O(log2 n)
-- Insert: O(n) - because we need to move all items on the right away.
+- Insert: 
+  - LinkedList: O(1) - because we just need to re-link two nodes.
+  - Array: O(n) - because we need to move all items on the right away.
 
 => Complexity: O(n)
 
 Darnit. We were so efficient at finding the right place, but we lose the whole advantage because of moving stuff around when making space.
 
 Could there be a better Data Structure for this?
+- The answer is yes, but more on that, next week
+
+## Bonus Exercise
+- Make a class named `SortedList<T>`
+- When inserting items, put them in the right place right away

@@ -39,3 +39,5 @@ Anything, really:
 ## Excellent Criteria
 - Measure its efficiency
 - Compare it to Linear Search
+
+## Bonus: Implement Sorted List

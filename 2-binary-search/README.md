@@ -78,7 +78,7 @@ Logarithm:
 - log2 8 = 3
 - log2 n = The exponent of 2 to give n
 
-Or, to phrase it more approachably: How many times 8 can be divided by two.
+Or, to phrase it more easily: How many times n can be divided by two.
 
 Oh, that's interesting. How many times 8 can be divided by two. Isn't that also, what Binary Search does? Divide a problem by two for as many times as necessary?
 
@@ -95,3 +95,15 @@ As you can see, whenever the problem size doubles, the complexity only increases
 
 ### When to Use?
 When you need to find items regularly and can not afford the extra memory that Hashing requires. Also, if the items come sorted, anyways.
+
+## Exercise
+- Extend class `TurboSearch`
+- Add a Method `static int BinarySearch<T>` to it
+  - Argument:
+    - C#: `IList<T>`
+    - C++: `T`
+  - Implement Binary Search
+  - Test it with:
+    - C#: `List<int>`
+    - C++: `vector<int>`
+  - Unit Test it!

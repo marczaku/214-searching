@@ -39,3 +39,15 @@ Other techniques to reduce the complexity include:
 - Sorting (costs extra performance preparing, only worth it if you search a lot)
 - Hashing (costs extra memory and a small bit of performance, worth it, if you can afford)
 - Caching (extra effort programming, harder to refactor, but if you don't need to find something AGAIN, that's great)
+
+## Exercise
+- Add a `TurboSearch` class to your solution
+- Add a Method `static int LinearSearch<T>` to it
+  - Argument:
+    - C#: `IEnumerable<T>`
+    - C++: `T`
+  - Implement Linear Search
+  - Test it with:
+    - C#: `List<int>`
+    - C++: `vector<int>`
+  - Unit Test it!
